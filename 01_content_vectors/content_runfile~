@@ -1,0 +1,6 @@
+# !/bin/sh
+
+python3 write_csv.py CSC.txt CSC_mails.csv CSC_content.csv
+python3 write_csv.py SAD.txt SAD_mails.csv SAD_content.csv
+
+python3 models.py
